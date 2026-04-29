@@ -14,14 +14,18 @@ This repository contains the analysis of Nanopore sequencing reads for genome as
 
 ## Folder Structure
 
-results/
-├─ qc_raw/          # NanoPlot QC summaries of raw reads
-├─ nanoplot/        # NanoPlot plots and reports
-├─ quast/           # Assembly QC reports (Quast)
-├─ blast/           # BLAST summary tables
-├─ prokka/          # Prokka annotation summaries
-├─ miniasm/         # Placeholder for assembly step (.keep)
-├─ minimap2/        # Placeholder for alignment step (.keep)
-├─ racon/           # Placeholder for polishing step (.keep)
+## Results
+
+The `results/` folder contains the processed outputs of the pipeline:
+
+- **qc_raw/** – NanoPlot summaries of raw reads
+- **nanoplot/** – NanoPlot plots and interactive HTML reports
+- **quast/** – Assembly quality reports and PDF summaries
+- **blast/** – Summary tables of contig characterization
+- **prokka/** – Gene annotation summaries
+- **miniasm/** – Placeholder folder for assembly outputs (.keep)
+- **minimap2/** – Placeholder folder for alignments (.keep)
+- **racon/** – Placeholder folder for polishing step (.keep)
+
 
 Dataset used: [Google Drive Link](https://drive.google.com/drive/folders/10MGILmqY2qzQOh4thZHgstubOmDpEhrV?usp=sharing)
