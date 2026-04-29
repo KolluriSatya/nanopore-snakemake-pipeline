@@ -20,6 +20,10 @@ logs/
 __pycache__/
 *.pyc
 
+# Results
+results/*
+!results/**/*.keep
+
 # Temporary files
 tmp/
 temp/

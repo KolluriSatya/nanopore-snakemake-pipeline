@@ -8,7 +8,7 @@ Pipeline implemented in Snakemake with reproducible Conda environment.
 
 ## Workflow:
 
-![Snakemake DAG](../dag.png)
+![Snakemake DAG](./figures/dag.png)
 
 1. Raw read QC - NanoPlot
 2. Overlap generation - Minimap2
