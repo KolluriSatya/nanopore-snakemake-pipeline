@@ -1,0 +1,838 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:153 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 153 present
+DISC_FEATURE_COUNT:tRNA: 3 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:156 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:154 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::153 proteins have invalid IDs.
+results/prokka/polished:utg000001c_1 (length 58)
+results/prokka/polished:utg000001c_2 (length 72)
+results/prokka/polished:utg000001c_3 (length 101)
+results/prokka/polished:utg000001c_4 (length 588)
+results/prokka/polished:utg000001c_5 (length 366)
+results/prokka/polished:utg000001c_6 (length 152)
+results/prokka/polished:utg000001c_7 (length 645)
+results/prokka/polished:utg000001c_8 (length 77)
+results/prokka/polished:utg000001c_9 (length 84)
+results/prokka/polished:utg000001c_10 (length 226)
+results/prokka/polished:utg000001c_11 (length 213)
+results/prokka/polished:utg000001c_12 (length 81)
+results/prokka/polished:utg000001c_13 (length 39)
+results/prokka/polished:utg000001c_14 (length 136)
+results/prokka/polished:utg000001c_15 (length 112)
+results/prokka/polished:utg000001c_16 (length 185)
+results/prokka/polished:utg000001c_17 (length 779)
+results/prokka/polished:utg000001c_18 (length 91)
+results/prokka/polished:utg000001c_19 (length 78)
+results/prokka/polished:utg000001c_20 (length 59)
+results/prokka/polished:utg000001c_21 (length 155)
+results/prokka/polished:utg000001c_22 (length 196)
+results/prokka/polished:utg000001c_23 (length 238)
+results/prokka/polished:utg000001c_24 (length 544)
+results/prokka/polished:utg000001c_25 (length 83)
+results/prokka/polished:utg000001c_26 (length 170)
+results/prokka/polished:utg000001c_27 (length 117)
+results/prokka/polished:utg000001c_28 (length 62)
+results/prokka/polished:utg000001c_29 (length 58)
+results/prokka/polished:utg000001c_30 (length 539)
+results/prokka/polished:utg000001c_31 (length 163)
+results/prokka/polished:utg000001c_32 (length 218)
+results/prokka/polished:utg000001c_33 (length 61)
+results/prokka/polished:utg000001c_34 (length 317)
+results/prokka/polished:utg000001c_35 (length 73)
+results/prokka/polished:utg000001c_36 (length 497)
+results/prokka/polished:utg000001c_37 (length 321)
+results/prokka/polished:utg000001c_38 (length 169)
+results/prokka/polished:utg000001c_39 (length 115)
+results/prokka/polished:utg000001c_40 (length 163)
+results/prokka/polished:utg000001c_41 (length 72)
+results/prokka/polished:utg000001c_42 (length 174)
+results/prokka/polished:utg000001c_43 (length 132)
+results/prokka/polished:utg000001c_44 (length 198)
+results/prokka/polished:utg000001c_45 (length 50)
+results/prokka/polished:utg000001c_46 (length 124)
+results/prokka/polished:utg000001c_47 (length 915)
+results/prokka/polished:utg000001c_48 (length 127)
+results/prokka/polished:utg000001c_49 (length 192)
+results/prokka/polished:utg000001c_50 (length 170)
+results/prokka/polished:utg000001c_51 (length 171)
+results/prokka/polished:utg000001c_52 (length 718)
+results/prokka/polished:utg000001c_53 (length 91)
+results/prokka/polished:utg000001c_54 (length 144)
+results/prokka/polished:utg000001c_55 (length 73)
+results/prokka/polished:utg000001c_56 (length 202)
+results/prokka/polished:utg000001c_57 (length 170)
+results/prokka/polished:utg000001c_58 (length 72)
+results/prokka/polished:utg000001c_59 (length 484)
+results/prokka/polished:utg000001c_60 (length 148)
+results/prokka/polished:utg000001c_61 (length 130)
+results/prokka/polished:utg000001c_62 (length 107)
+results/prokka/polished:utg000001c_63 (length 141)
+results/prokka/polished:utg000001c_64 (length 139)
+results/prokka/polished:utg000001c_65 (length 128)
+results/prokka/polished:utg000001c_66 (length 67)
+results/prokka/polished:utg000001c_67 (length 131)
+results/prokka/polished:utg000001c_68 (length 299)
+results/prokka/polished:utg000001c_69 (length 338)
+results/prokka/polished:utg000001c_70 (length 132)
+results/prokka/polished:utg000001c_71 (length 414)
+results/prokka/polished:utg000001c_72 (length 258)
+results/prokka/polished:utg000001c_73 (length 324)
+results/prokka/polished:utg000001c_74 (length 127)
+results/prokka/polished:utg000001c_75 (length 109)
+results/prokka/polished:utg000001c_76 (length 102)
+results/prokka/polished:utg000001c_77 (length 98)
+results/prokka/polished:utg000001c_78 (length 78)
+results/prokka/polished:utg000001c_79 (length 99)
+results/prokka/polished:utg000001c_80 (length 90)
+results/prokka/polished:utg000001c_81 (length 119)
+results/prokka/polished:utg000001c_82 (length 66)
+results/prokka/polished:utg000001c_83 (length 453)
+results/prokka/polished:utg000001c_84 (length 191)
+results/prokka/polished:utg000001c_85 (length 247)
+results/prokka/polished:utg000001c_86 (length 62)
+results/prokka/polished:utg000001c_87 (length 84)
+results/prokka/polished:utg000001c_88 (length 58)
+results/prokka/polished:utg000001c_89 (length 72)
+results/prokka/polished:utg000001c_90 (length 101)
+results/prokka/polished:utg000001c_91 (length 588)
+results/prokka/polished:utg000001c_92 (length 366)
+results/prokka/polished:utg000001c_93 (length 301)
+results/prokka/polished:utg000001c_94 (length 502)
+results/prokka/polished:utg000001c_95 (length 77)
+results/prokka/polished:utg000001c_96 (length 78)
+results/prokka/polished:utg000001c_97 (length 91)
+results/prokka/polished:utg000001c_98 (length 51)
+results/prokka/polished:utg000001c_99 (length 76)
+results/prokka/polished:utg000001c_100 (length 703)
+results/prokka/polished:utg000001c_101 (length 185)
+results/prokka/polished:utg000001c_102 (length 112)
+results/prokka/polished:utg000001c_103 (length 132)
+results/prokka/polished:utg000001c_104 (length 165)
+results/prokka/polished:utg000001c_105 (length 213)
+results/prokka/polished:utg000001c_106 (length 226)
+results/prokka/polished:utg000001c_107 (length 84)
+results/prokka/polished:utg000001c_108 (length 77)
+results/prokka/polished:utg000001c_109 (length 805)
+results/prokka/polished:utg000001c_110 (length 366)
+results/prokka/polished:utg000001c_111 (length 461)
+results/prokka/polished:utg000001c_112 (length 109)
+results/prokka/polished:utg000001c_113 (length 131)
+results/prokka/polished:utg000001c_114 (length 67)
+results/prokka/polished:utg000001c_115 (length 159)
+results/prokka/polished:utg000001c_116 (length 139)
+results/prokka/polished:utg000001c_117 (length 141)
+results/prokka/polished:utg000001c_118 (length 107)
+results/prokka/polished:utg000001c_119 (length 130)
+results/prokka/polished:utg000001c_120 (length 148)
+results/prokka/polished:utg000001c_121 (length 484)
+results/prokka/polished:utg000001c_122 (length 72)
+results/prokka/polished:utg000001c_123 (length 170)
+results/prokka/polished:utg000001c_124 (length 199)
+results/prokka/polished:utg000001c_125 (length 73)
+results/prokka/polished:utg000001c_126 (length 144)
+results/prokka/polished:utg000001c_127 (length 91)
+results/prokka/polished:utg000001c_128 (length 224)
+results/prokka/polished:utg000001c_129 (length 159)
+results/prokka/polished:utg000001c_130 (length 67)
+results/prokka/polished:utg000001c_131 (length 131)
+results/prokka/polished:utg000001c_132 (length 299)
+results/prokka/polished:utg000001c_133 (length 338)
+results/prokka/polished:utg000001c_134 (length 132)
+results/prokka/polished:utg000001c_135 (length 414)
+results/prokka/polished:utg000001c_136 (length 194)
+results/prokka/polished:utg000001c_137 (length 324)
+results/prokka/polished:utg000001c_138 (length 127)
+results/prokka/polished:utg000001c_139 (length 109)
+results/prokka/polished:utg000001c_140 (length 102)
+results/prokka/polished:utg000001c_141 (length 38)
+results/prokka/polished:utg000001c_142 (length 98)
+results/prokka/polished:utg000001c_143 (length 78)
+results/prokka/polished:utg000001c_144 (length 146)
+results/prokka/polished:utg000001c_145 (length 99)
+results/prokka/polished:utg000001c_146 (length 90)
+results/prokka/polished:utg000001c_147 (length 119)
+results/prokka/polished:utg000001c_148 (length 66)
+results/prokka/polished:utg000001c_149 (length 453)
+results/prokka/polished:utg000001c_150 (length 191)
+results/prokka/polished:utg000001c_151 (length 80)
+results/prokka/polished:utg000001c_152 (length 167)
+results/prokka/polished:utg000001c_153 (length 62)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 153 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 3 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+results/prokka/polished:utg000001c (length 103627)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::156 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c285-109	HBHHLAAA_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c496-278	HBHHLAAA_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c814-509	HBHHLAAA_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c2655-889	HBHHLAAA_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c3752-2652	HBHHLAAA_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c4492-4034	HBHHLAAA_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c6450-4513	HBHHLAAA_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c6749-6516	HBHHLAAA_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c7101-6847	HBHHLAAA_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c7784-7104	HBHHLAAA_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c8580-7939	HBHHLAAA_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c9331-9086	HBHHLAAA_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c9585-9466	HBHHLAAA_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c9992-9582	HBHHLAAA_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c10554-10216	HBHHLAAA_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c11108-10551	HBHHLAAA_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c13447-11108	HBHHLAAA_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c13876-13601	HBHHLAAA_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c14191-13955	HBHHLAAA_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c14844-14665	HBHHLAAA_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c15358-14891	HBHHLAAA_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c15945-15355	HBHHLAAA_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	DNA methyltransferase CcrM	utg000001c:c16658-15942	HBHHLAAA_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c18289-16655	HBHHLAAA_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c18533-18282	HBHHLAAA_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:18688-19200	HBHHLAAA_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:19197-19550	HBHHLAAA_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:19551-19739	HBHHLAAA_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:19742-19918	HBHHLAAA_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:19922-21541	HBHHLAAA_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:21624-22115	HBHHLAAA_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:22125-22781	HBHHLAAA_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:22793-22978	HBHHLAAA_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:22996-23949	HBHHLAAA_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:24021-24242	HBHHLAAA_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:24233-25726	HBHHLAAA_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:25723-26688	HBHHLAAA_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:26768-27277	HBHHLAAA_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:27267-27614	HBHHLAAA_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:27608-28099	HBHHLAAA_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c28444-28226	HBHHLAAA_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c28975-28451	HBHHLAAA_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c29376-28978	HBHHLAAA_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c29969-29373	HBHHLAAA_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c30659-30507	HBHHLAAA_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c31023-30649	HBHHLAAA_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c33860-31113	HBHHLAAA_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c34197-33814	HBHHLAAA_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c34782-34204	HBHHLAAA_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c35375-34863	HBHHLAAA_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c35887-35372	HBHHLAAA_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c38043-35887	HBHHLAAA_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c38320-38045	HBHHLAAA_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c38772-38338	HBHHLAAA_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:38905-39126	HBHHLAAA_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:39140-39748	HBHHLAAA_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:39736-40248	HBHHLAAA_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:40250-40468	HBHHLAAA_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c41976-40522	HBHHLAAA_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c42470-42024	HBHHLAAA_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:42577-42969	HBHHLAAA_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:42969-43292	HBHHLAAA_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c43701-43276	HBHHLAAA_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c44120-43701	HBHHLAAA_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c44590-44204	HBHHLAAA_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c45018-44815	HBHHLAAA_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c45835-45440	HBHHLAAA_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:45939-46838	HBHHLAAA_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c47909-46893	HBHHLAAA_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c48322-47924	HBHHLAAA_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c49566-48322	HBHHLAAA_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c50342-49566	HBHHLAAA_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c51577-50603	HBHHLAAA_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c52097-51714	HBHHLAAA_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c52398-52069	HBHHLAAA_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c52706-52398	HBHHLAAA_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c53131-52835	HBHHLAAA_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:53217-53453	HBHHLAAA_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:53912-54211	HBHHLAAA_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:54223-54495	HBHHLAAA_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:54482-54841	HBHHLAAA_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:55307-55507	HBHHLAAA_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c56905-55544	HBHHLAAA_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c57554-56979	HBHHLAAA_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c58337-57594	HBHHLAAA_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c58605-58417	HBHHLAAA_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c58944-58690	HBHHLAAA_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c59114-58938	HBHHLAAA_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c59325-59107	HBHHLAAA_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c59643-59338	HBHHLAAA_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c61484-59718	HBHHLAAA_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c62581-61481	HBHHLAAA_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c63768-62863	HBHHLAAA_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c65279-63771	HBHHLAAA_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c65578-65345	HBHHLAAA_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:66569-66805	HBHHLAAA_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:66884-67159	HBHHLAAA_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:67159-67314	HBHHLAAA_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:67314-67544	HBHHLAAA_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:67541-69652	HBHHLAAA_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:69652-70209	HBHHLAAA_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:70206-70544	HBHHLAAA_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:70670-71068	HBHHLAAA_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:71175-71672	HBHHLAAA_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:72178-72819	HBHHLAAA_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:72974-73654	HBHHLAAA_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:73657-73911	HBHHLAAA_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:74009-74242	HBHHLAAA_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:74308-76725	HBHHLAAA_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:77007-78107	HBHHLAAA_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:78104-79489	HBHHLAAA_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c80056-79727	HBHHLAAA_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:80160-80555	HBHHLAAA_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:80977-81180	HBHHLAAA_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:81405-81884	HBHHLAAA_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:81877-82296	HBHHLAAA_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:82296-82721	HBHHLAAA_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c83028-82705	HBHHLAAA_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c83420-83028	HBHHLAAA_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:83527-83973	HBHHLAAA_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:84021-85475	HBHHLAAA_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c85747-85529	HBHHLAAA_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c86261-85749	HBHHLAAA_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c86853-86254	HBHHLAAA_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c87088-86867	HBHHLAAA_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:87221-87655	HBHHLAAA_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:87673-87948	HBHHLAAA_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:87950-88624	HBHHLAAA_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c89398-88919	HBHHLAAA_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c89826-89623	HBHHLAAA_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c90643-90248	HBHHLAAA_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:90747-91646	HBHHLAAA_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c92717-91701	HBHHLAAA_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c93130-92732	HBHHLAAA_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c94374-93130	HBHHLAAA_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c94958-94374	HBHHLAAA_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c96386-95412	HBHHLAAA_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c96906-96523	HBHHLAAA_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c97207-96878	HBHHLAAA_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c97515-97207	HBHHLAAA_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c97642-97526	HBHHLAAA_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c97941-97645	HBHHLAAA_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:98027-98263	HBHHLAAA_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:98260-98700	HBHHLAAA_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:98723-99022	HBHHLAAA_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:99034-99306	HBHHLAAA_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:99293-99652	HBHHLAAA_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:100118-100318	HBHHLAAA_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c101716-100355	HBHHLAAA_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c102365-101790	HBHHLAAA_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c102647-102405	HBHHLAAA_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c103147-102644	HBHHLAAA_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+results/prokka/polished:CDS	hypothetical protein	utg000001c:c103415-103227	HBHHLAAA_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+results/prokka/polished:tRNA	Trp	utg000001c:45166-45241	HBHHLAAA_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+results/prokka/polished:tRNA	Trp	utg000001c:c80829-80754	HBHHLAAA_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+results/prokka/polished:tRNA	Trp	utg000001c:89974-90049	HBHHLAAA_00133
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+results/prokka/polished:utg000001c:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+results/prokka/polished:utg000001c_13 (length 39)
+results/prokka/polished:utg000001c_141 (length 38)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+results/prokka/polished:utg000001c (length 103627)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+results/prokka/polished:utg000001c (length 103627)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+results/prokka/polished:utg000001c (length 103627)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+results/prokka/polished:utg000001c (length 103627)
+
+DiscRep_ALL:MISSING_PROJECT::154 sequences do not include project.
+results/prokka/polished:utg000001c (length 103627)
+results/prokka/polished:utg000001c_1 (length 58)
+results/prokka/polished:utg000001c_2 (length 72)
+results/prokka/polished:utg000001c_3 (length 101)
+results/prokka/polished:utg000001c_4 (length 588)
+results/prokka/polished:utg000001c_5 (length 366)
+results/prokka/polished:utg000001c_6 (length 152)
+results/prokka/polished:utg000001c_7 (length 645)
+results/prokka/polished:utg000001c_8 (length 77)
+results/prokka/polished:utg000001c_9 (length 84)
+results/prokka/polished:utg000001c_10 (length 226)
+results/prokka/polished:utg000001c_11 (length 213)
+results/prokka/polished:utg000001c_12 (length 81)
+results/prokka/polished:utg000001c_13 (length 39)
+results/prokka/polished:utg000001c_14 (length 136)
+results/prokka/polished:utg000001c_15 (length 112)
+results/prokka/polished:utg000001c_16 (length 185)
+results/prokka/polished:utg000001c_17 (length 779)
+results/prokka/polished:utg000001c_18 (length 91)
+results/prokka/polished:utg000001c_19 (length 78)
+results/prokka/polished:utg000001c_20 (length 59)
+results/prokka/polished:utg000001c_21 (length 155)
+results/prokka/polished:utg000001c_22 (length 196)
+results/prokka/polished:utg000001c_23 (length 238)
+results/prokka/polished:utg000001c_24 (length 544)
+results/prokka/polished:utg000001c_25 (length 83)
+results/prokka/polished:utg000001c_26 (length 170)
+results/prokka/polished:utg000001c_27 (length 117)
+results/prokka/polished:utg000001c_28 (length 62)
+results/prokka/polished:utg000001c_29 (length 58)
+results/prokka/polished:utg000001c_30 (length 539)
+results/prokka/polished:utg000001c_31 (length 163)
+results/prokka/polished:utg000001c_32 (length 218)
+results/prokka/polished:utg000001c_33 (length 61)
+results/prokka/polished:utg000001c_34 (length 317)
+results/prokka/polished:utg000001c_35 (length 73)
+results/prokka/polished:utg000001c_36 (length 497)
+results/prokka/polished:utg000001c_37 (length 321)
+results/prokka/polished:utg000001c_38 (length 169)
+results/prokka/polished:utg000001c_39 (length 115)
+results/prokka/polished:utg000001c_40 (length 163)
+results/prokka/polished:utg000001c_41 (length 72)
+results/prokka/polished:utg000001c_42 (length 174)
+results/prokka/polished:utg000001c_43 (length 132)
+results/prokka/polished:utg000001c_44 (length 198)
+results/prokka/polished:utg000001c_45 (length 50)
+results/prokka/polished:utg000001c_46 (length 124)
+results/prokka/polished:utg000001c_47 (length 915)
+results/prokka/polished:utg000001c_48 (length 127)
+results/prokka/polished:utg000001c_49 (length 192)
+results/prokka/polished:utg000001c_50 (length 170)
+results/prokka/polished:utg000001c_51 (length 171)
+results/prokka/polished:utg000001c_52 (length 718)
+results/prokka/polished:utg000001c_53 (length 91)
+results/prokka/polished:utg000001c_54 (length 144)
+results/prokka/polished:utg000001c_55 (length 73)
+results/prokka/polished:utg000001c_56 (length 202)
+results/prokka/polished:utg000001c_57 (length 170)
+results/prokka/polished:utg000001c_58 (length 72)
+results/prokka/polished:utg000001c_59 (length 484)
+results/prokka/polished:utg000001c_60 (length 148)
+results/prokka/polished:utg000001c_61 (length 130)
+results/prokka/polished:utg000001c_62 (length 107)
+results/prokka/polished:utg000001c_63 (length 141)
+results/prokka/polished:utg000001c_64 (length 139)
+results/prokka/polished:utg000001c_65 (length 128)
+results/prokka/polished:utg000001c_66 (length 67)
+results/prokka/polished:utg000001c_67 (length 131)
+results/prokka/polished:utg000001c_68 (length 299)
+results/prokka/polished:utg000001c_69 (length 338)
+results/prokka/polished:utg000001c_70 (length 132)
+results/prokka/polished:utg000001c_71 (length 414)
+results/prokka/polished:utg000001c_72 (length 258)
+results/prokka/polished:utg000001c_73 (length 324)
+results/prokka/polished:utg000001c_74 (length 127)
+results/prokka/polished:utg000001c_75 (length 109)
+results/prokka/polished:utg000001c_76 (length 102)
+results/prokka/polished:utg000001c_77 (length 98)
+results/prokka/polished:utg000001c_78 (length 78)
+results/prokka/polished:utg000001c_79 (length 99)
+results/prokka/polished:utg000001c_80 (length 90)
+results/prokka/polished:utg000001c_81 (length 119)
+results/prokka/polished:utg000001c_82 (length 66)
+results/prokka/polished:utg000001c_83 (length 453)
+results/prokka/polished:utg000001c_84 (length 191)
+results/prokka/polished:utg000001c_85 (length 247)
+results/prokka/polished:utg000001c_86 (length 62)
+results/prokka/polished:utg000001c_87 (length 84)
+results/prokka/polished:utg000001c_88 (length 58)
+results/prokka/polished:utg000001c_89 (length 72)
+results/prokka/polished:utg000001c_90 (length 101)
+results/prokka/polished:utg000001c_91 (length 588)
+results/prokka/polished:utg000001c_92 (length 366)
+results/prokka/polished:utg000001c_93 (length 301)
+results/prokka/polished:utg000001c_94 (length 502)
+results/prokka/polished:utg000001c_95 (length 77)
+results/prokka/polished:utg000001c_96 (length 78)
+results/prokka/polished:utg000001c_97 (length 91)
+results/prokka/polished:utg000001c_98 (length 51)
+results/prokka/polished:utg000001c_99 (length 76)
+results/prokka/polished:utg000001c_100 (length 703)
+results/prokka/polished:utg000001c_101 (length 185)
+results/prokka/polished:utg000001c_102 (length 112)
+results/prokka/polished:utg000001c_103 (length 132)
+results/prokka/polished:utg000001c_104 (length 165)
+results/prokka/polished:utg000001c_105 (length 213)
+results/prokka/polished:utg000001c_106 (length 226)
+results/prokka/polished:utg000001c_107 (length 84)
+results/prokka/polished:utg000001c_108 (length 77)
+results/prokka/polished:utg000001c_109 (length 805)
+results/prokka/polished:utg000001c_110 (length 366)
+results/prokka/polished:utg000001c_111 (length 461)
+results/prokka/polished:utg000001c_112 (length 109)
+results/prokka/polished:utg000001c_113 (length 131)
+results/prokka/polished:utg000001c_114 (length 67)
+results/prokka/polished:utg000001c_115 (length 159)
+results/prokka/polished:utg000001c_116 (length 139)
+results/prokka/polished:utg000001c_117 (length 141)
+results/prokka/polished:utg000001c_118 (length 107)
+results/prokka/polished:utg000001c_119 (length 130)
+results/prokka/polished:utg000001c_120 (length 148)
+results/prokka/polished:utg000001c_121 (length 484)
+results/prokka/polished:utg000001c_122 (length 72)
+results/prokka/polished:utg000001c_123 (length 170)
+results/prokka/polished:utg000001c_124 (length 199)
+results/prokka/polished:utg000001c_125 (length 73)
+results/prokka/polished:utg000001c_126 (length 144)
+results/prokka/polished:utg000001c_127 (length 91)
+results/prokka/polished:utg000001c_128 (length 224)
+results/prokka/polished:utg000001c_129 (length 159)
+results/prokka/polished:utg000001c_130 (length 67)
+results/prokka/polished:utg000001c_131 (length 131)
+results/prokka/polished:utg000001c_132 (length 299)
+results/prokka/polished:utg000001c_133 (length 338)
+results/prokka/polished:utg000001c_134 (length 132)
+results/prokka/polished:utg000001c_135 (length 414)
+results/prokka/polished:utg000001c_136 (length 194)
+results/prokka/polished:utg000001c_137 (length 324)
+results/prokka/polished:utg000001c_138 (length 127)
+results/prokka/polished:utg000001c_139 (length 109)
+results/prokka/polished:utg000001c_140 (length 102)
+results/prokka/polished:utg000001c_141 (length 38)
+results/prokka/polished:utg000001c_142 (length 98)
+results/prokka/polished:utg000001c_143 (length 78)
+results/prokka/polished:utg000001c_144 (length 146)
+results/prokka/polished:utg000001c_145 (length 99)
+results/prokka/polished:utg000001c_146 (length 90)
+results/prokka/polished:utg000001c_147 (length 119)
+results/prokka/polished:utg000001c_148 (length 66)
+results/prokka/polished:utg000001c_149 (length 453)
+results/prokka/polished:utg000001c_150 (length 191)
+results/prokka/polished:utg000001c_151 (length 80)
+results/prokka/polished:utg000001c_152 (length 167)
+results/prokka/polished:utg000001c_153 (length 62)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+results/prokka/polished:utg000001c (length 103627)
+

@@ -1,0 +1,127 @@
+[12:47:04] This is prokka 1.15.6
+[12:47:04] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:47:04] Homepage is https://github.com/tseemann/prokka
+[12:47:04] Local time is Mon Apr 27 12:47:04 2026
+[12:47:04] You are siri
+[12:47:04] Operating system is linux
+[12:47:04] You have BioPerl 1.7.8
+[12:47:04] System has 12 cores.
+[12:47:04] Will use maximum of 8 cores.
+[12:47:04] Annotating as >>> Bacteria <<<
+[12:47:04] Generating locus_tag from 'results/racon/polished.fasta' contents.
+[12:47:04] Setting --locustag HBHHLAAA from MD5 1b115aaae5d1a09d9829f5206071f493
+[12:47:04] Re-using existing --outdir results/prokka
+[12:47:04] Using filename prefix: polished.XXX
+[12:47:04] Setting HMMER_NCPU=1
+[12:47:04] Writing log to: results/prokka/polished.log
+[12:47:04] Command: /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/prokka results/racon/polished.fasta --outdir results/prokka --prefix polished --force
+[12:47:04] Looking for 'aragorn' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/aragorn
+[12:47:04] Determined aragorn version is v1.2 from 'ARAGORN v1.2.41 Dean Laslett'
+[12:47:04] Looking for 'barrnap' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/barrnap
+[12:47:04] Determined barrnap version is v1.10 from 'barrnap 1.10.5'
+[12:47:04] Looking for 'blastp' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/blastp
+[12:47:05] Determined blastp version is v2.17 from 'blastp: 2.17.0+'
+[12:47:05] Looking for 'cmpress' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/cmpress
+[12:47:05] Determined cmpress version is v1.1 from '# INFERNAL 1.1.5 (Sep 2023)'
+[12:47:05] Looking for 'cmscan' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/cmscan
+[12:47:05] Determined cmscan version is v1.1 from '# INFERNAL 1.1.5 (Sep 2023)'
+[12:47:05] Looking for 'egrep' - found /usr/bin/egrep
+[12:47:05] Looking for 'find' - found /usr/bin/find
+[12:47:05] Looking for 'grep' - found /usr/bin/grep
+[12:47:05] Looking for 'hmmpress' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/hmmpress
+[12:47:05] Determined hmmpress version is v3.4 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[12:47:05] Looking for 'hmmscan' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/hmmscan
+[12:47:05] Determined hmmscan version is v3.4 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[12:47:05] Looking for 'java' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/java
+[12:47:05] Looking for 'makeblastdb' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/makeblastdb
+[12:47:05] Determined makeblastdb version is v2.17 from 'makeblastdb: 2.17.0+'
+[12:47:05] Looking for 'minced' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/minced
+[12:47:05] Determined minced version is v4.2 from 'minced 0.4.2'
+[12:47:05] Looking for 'parallel' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/parallel
+[12:47:06] Determined parallel version is 20260422 from 'GNU parallel 20260422'
+[12:47:06] Looking for 'prodigal' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/prodigal
+[12:47:06] Determined prodigal version is v2.6 from 'Prodigal V2.6.3: February, 2016'
+[12:47:06] Looking for 'prokka-genbank_to_fasta_db' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/prokka-genbank_to_fasta_db
+[12:47:06] Looking for 'sed' - found /usr/bin/sed
+[12:47:06] Looking for 'tbl2asn' - found /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/bin/tbl2asn
+[12:47:06] Determined tbl2asn version is v25.7 from 'tbl2asn 25.7   arguments:'
+[12:47:06] Using genetic code table 11.
+[12:47:06] Loading and checking input file: results/racon/polished.fasta
+[12:47:06] Wrote 1 contigs totalling 103627 bp.
+[12:47:06] Predicting tRNAs and tmRNAs
+[12:47:06] Running: aragorn -l -gc11  -w results\/prokka\/polished\.fna
+[12:47:06] 1 tRNA-Trp [45166,45241] 34 (cca)
+[12:47:06] 2 tRNA-Trp c[80754,80829] 34 (cca)
+[12:47:06] 3 tRNA-Trp [89974,90049] 34 (cca)
+[12:47:06] Found 3 tRNAs
+[12:47:06] Predicting Ribosomal RNAs
+[12:47:06] Running Barrnap with 8 threads
+[12:47:07] Found 0 rRNAs
+[12:47:07] Skipping ncRNA search, enable with --rfam if desired.
+[12:47:07] Total of 3 tRNA + rRNA features
+[12:47:07] Searching for CRISPR repeats
+[12:47:07] Found 0 CRISPRs
+[12:47:07] Predicting coding sequences
+[12:47:07] Contigs total 103627 bp, so using single mode
+[12:47:07] Running: prodigal -i results\/prokka\/polished\.fna -c -m -g 11 -p single -f sco -q
+[12:47:07] Found 153 CDS
+[12:47:07] Connecting features back to sequences
+[12:47:07] Not using genus-specific database. Try --usegenus to enable it.
+[12:47:07] Annotating CDS, please be patient.
+[12:47:07] Will use 8 CPUs for similarity searching.
+[12:47:07] There are still 153 unannotated CDS left (started with 153)
+[12:47:07] Will use blast to search against /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/kingdom/Bacteria/IS with 8 CPUs
+[12:47:07] Running: cat results\/prokka\/polished\.IS\.tmp\.1060\.faa | parallel --gnu --plain -j 8 --block 1920 --recstart '>' --pipe blastp -query - -db /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > results\/prokka\/polished\.IS\.tmp\.1060\.blast 2> /dev/null
+[12:47:09] Deleting unwanted file: results/prokka/polished.IS.tmp.1060.faa
+[12:47:09] Deleting unwanted file: results/prokka/polished.IS.tmp.1060.blast
+[12:47:09] There are still 153 unannotated CDS left (started with 153)
+[12:47:09] Will use blast to search against /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/kingdom/Bacteria/AMR with 8 CPUs
+[12:47:09] Running: cat results\/prokka\/polished\.AMR\.tmp\.1060\.faa | parallel --gnu --plain -j 8 --block 1920 --recstart '>' --pipe blastp -query - -db /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > results\/prokka\/polished\.AMR\.tmp\.1060\.blast 2> /dev/null
+[12:47:10] Deleting unwanted file: results/prokka/polished.AMR.tmp.1060.faa
+[12:47:10] Deleting unwanted file: results/prokka/polished.AMR.tmp.1060.blast
+[12:47:10] There are still 153 unannotated CDS left (started with 153)
+[12:47:10] Will use blast to search against /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/kingdom/Bacteria/sprot with 8 CPUs
+[12:47:10] Running: cat results\/prokka\/polished\.sprot\.tmp\.1060\.faa | parallel --gnu --plain -j 8 --block 1920 --recstart '>' --pipe blastp -query - -db /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > results\/prokka\/polished\.sprot\.tmp\.1060\.blast 2> /dev/null
+[12:47:12] Deleting unwanted file: results/prokka/polished.sprot.tmp.1060.faa
+[12:47:12] Deleting unwanted file: results/prokka/polished.sprot.tmp.1060.blast
+[12:47:12] There are still 152 unannotated CDS left (started with 153)
+[12:47:12] Will use hmmer3 to search against /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/hmm/HAMAP.hmm with 8 CPUs
+[12:47:12] Running: cat results\/prokka\/polished\.HAMAP\.hmm\.tmp\.1060\.faa | parallel --gnu --plain -j 8 --block 1905 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8/db/hmm/HAMAP.hmm /dev/stdin > results\/prokka\/polished\.HAMAP\.hmm\.tmp\.1060\.hmmer3 2> /dev/null
+[12:47:17] Deleting unwanted file: results/prokka/polished.HAMAP.hmm.tmp.1060.faa
+[12:47:17] Deleting unwanted file: results/prokka/polished.HAMAP.hmm.tmp.1060.hmmer3
+[12:47:17] Labelling remaining 152 proteins as 'hypothetical protein'
+[12:47:17] Found 1 unique /gene codes.
+[12:47:17] Fixed 0 colliding /gene names.
+[12:47:17] Adding /locus_tag identifiers
+[12:47:17] Assigned 156 locus_tags to CDS and RNA features.
+[12:47:17] Writing outputs to results/prokka/
+[12:47:17] Generating annotation statistics file
+[12:47:17] Generating Genbank and Sequin files
+[12:47:17] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka' -Z results\/prokka\/polished\.err -i results\/prokka\/polished\.fsa 2> /dev/null
+[12:47:17] Deleting unwanted file: results/prokka/errorsummary.val
+[12:47:17] Deleting unwanted file: results/prokka/polished.dr
+[12:47:17] Deleting unwanted file: results/prokka/polished.fixedproducts
+[12:47:17] Deleting unwanted file: results/prokka/polished.ecn
+[12:47:17] Deleting unwanted file: results/prokka/polished.val
+[12:47:17] Repairing broken .GBK output that tbl2asn produces...
+[12:47:17] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < results\/prokka\/polished\.gbf > results\/prokka\/polished\.gbk
+[12:47:17] Deleting unwanted file: results/prokka/polished.gbf
+[12:47:17] Output files:
+[12:47:17] results/prokka/polished.faa
+[12:47:17] results/prokka/polished.ffn
+[12:47:17] results/prokka/polished.gff
+[12:47:17] results/prokka/polished.tbl
+[12:47:17] results/prokka/polished.tsv
+[12:47:17] results/prokka/polished.fsa
+[12:47:17] results/prokka/polished.log
+[12:47:17] results/prokka/polished.gbk
+[12:47:17] results/prokka/polished.txt
+[12:47:17] results/prokka/polished.fna
+[12:47:17] results/prokka/polished.err
+[12:47:17] results/prokka/polished.sqn
+[12:47:17] Annotation finished successfully.
+[12:47:17] Walltime used: 0.22 minutes
+[12:47:17] If you use this result please cite the Prokka paper:
+[12:47:17] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:47:17] Type 'prokka --citation' for more details.
+[12:47:17] Share and enjoy!
