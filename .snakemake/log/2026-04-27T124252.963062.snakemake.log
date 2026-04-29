@@ -1,0 +1,9 @@
+Building DAG of jobs...
+Creating conda environment envs/prokka.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/siri/nanopore_pipeline/envs/prokka.yaml:
+error    libmamba Non-conda folder exists at prefix - aborting.
+critical libmamba Non-conda folder exists at prefix - aborting.
+
+  File "/home/siri/ll/envs/snakemake_env/lib/python3.10/site-packages/snakemake/deployment/conda.py", line 388, in create

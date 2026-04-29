@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Creating conda environment envs/prokka.yaml...
+Downloading and installing remote packages.
+Environment for envs/prokka.yaml created (location: .snakemake/conda/43b13666985a4eb1156d457b86b074b8)
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	prokka
+	2
+Select jobs to execute...
+
+[Mon Apr 27 12:47:03 2026]
+rule prokka:
+    input: results/racon/polished.fasta
+    output: results/prokka/polished.gff, results/prokka/polished.faa, results/prokka/polished.tsv
+    jobid: 6
+
+Activating conda environment: /home/siri/nanopore_pipeline/.snakemake/conda/43b13666985a4eb1156d457b86b074b8
+[Mon Apr 27 12:47:17 2026]
+Finished job 6.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Mon Apr 27 12:47:17 2026]
+localrule all:
+    input: results/nanoplot/NanoPlot-report.html, results/miniasm/assembly.fasta, results/racon/polished.fasta, results/quast/report.tsv, results/blast/blast_results.tsv, results/prokka/polished.tsv
+    jobid: 0
+
+[Mon Apr 27 12:47:17 2026]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/siri/nanopore_pipeline/.snakemake/log/2026-04-27T124303.531592.snakemake.log

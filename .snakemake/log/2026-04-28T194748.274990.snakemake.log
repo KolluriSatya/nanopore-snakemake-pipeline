@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Relative file path './report/report.md' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './report/figures/readlength_histogram.png' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './report/figures/scatter_plot.png' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	report
+	1
+Select jobs to execute...
+
+[Tue Apr 28 19:47:48 2026]
+rule report:
+    input: ./report/report.md, ./report/figures/readlength_histogram.png, ./report/figures/scatter_plot.png, dag.png
+    output: report.html
+    jobid: 0
+
+[Tue Apr 28 19:47:48 2026]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /home/siri/nanopore_pipeline/.snakemake/log/2026-04-28T194748.274990.snakemake.log

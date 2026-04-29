@@ -1,0 +1,135 @@
+<h1 id="nanopore-genome-assembly-report">Nanopore Genome Assembly
+Report</h1>
+<h2 id="objective">Objective</h2>
+<p>To assemble, quality assess, characterize, and annotate a genome from
+Nanopore long-read sequenicng data using a Snakemake workflow</p>
+<h2 id="methods">Methods</h2>
+<p>Pipeline implemented in Snakemake with reproducible Conda
+environment.</p>
+<h2 id="workflow">Workflow:</h2>
+<figure>
+<img src="../dag.png" alt="Snakemake DAG" />
+<figcaption aria-hidden="true">Snakemake DAG</figcaption>
+</figure>
+<ol type="1">
+<li>Raw read QC - NanoPlot</li>
+<li>Overlap generation - Minimap2</li>
+<li>Assemby - Miniasm</li>
+<li>Polishing - Racon</li>
+<li>Assembly QC - QUAST</li>
+<li>Contig Characterization - BLAST</li>
+<li>Annotation - Prokka</li>
+</ol>
+<h2 id="results">Results</h2>
+<h3 id="read-qc">Read QC</h3>
+<figure>
+<img src="./figures/readlength_histogram.png"
+alt="Read Length Distribution" />
+<figcaption aria-hidden="true">Read Length Distribution</figcaption>
+</figure>
+<figure>
+<img src="./figures/scatter_plot.png"
+alt="Length Vs Quality Scatter Plot" />
+<figcaption aria-hidden="true">Length Vs Quality Scatter
+Plot</figcaption>
+</figure>
+<p><strong>Mean read length:</strong> 9,677 bp <strong>N50:</strong>
+14,392 bp</p>
+<h3 id="assembly-qc-quast">Assembly QC (QUAST)</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Number of contigs</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Total length</td>
+<td>103,627 bp</td>
+</tr>
+<tr>
+<td>GC content</td>
+<td>48.78%</td>
+</tr>
+<tr>
+<td>N50</td>
+<td>103,627 bp</td>
+</tr>
+<tr>
+<td>L50</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ambiguous bases</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img src="./figures/icarus.png" alt="QUAST Icarus View" />
+<figcaption aria-hidden="true">QUAST Icarus View</figcaption>
+</figure>
+<ul>
+<li>Interpretation: A near-complete single-contig assembly was
+generated.</li>
+</ul>
+<h3 id="blast-characterization">BLAST Characterization</h3>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 39%" />
+<col style="width: 14%" />
+<col style="width: 18%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr>
+<th>Contig</th>
+<th>Best BLAST Hit</th>
+<th>Identity (%)</th>
+<th>Align.Length (bp)</th>
+<th>E-value</th>
+<th>Bit Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>utg000001c</td>
+<td>Vibrio phage 1.024.O._10N.261.45.F8</td>
+<td>99.978</td>
+<td>35,994</td>
+<td>0.0</td>
+<td>66,417</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Interpretation: The top BLAST hit spans ~36kb of the 103 kb
+assembly, suggesting partial similarity to a related Vibrio phage
+genome.</li>
+</ul>
+<h3 id="prokka-annotation">Prokka Annotation</h3>
+<ul>
+<li><p>contigs: 1</p></li>
+<li><p>bases: 103627</p></li>
+<li><p>CDS: 153</p></li>
+<li><p>tRNA: 3</p></li>
+<li><p>Interpretation: Compact viral-like genome architecture.</p></li>
+</ul>
+<h2 id="discussion">Discussion</h2>
+<ul>
+<li>The pipeline successfully assembled a single contig of 103,627 bp
+from Nanopore reads.</li>
+<li>BLAST analysis identified strong similarity to a Vibrio phage over a
+~36kb region with 99.97% identity.</li>
+<li>Prokka annotation predicted 153 CDS and 3 tRNA genes, suggesting a
+compact viral genome structure.</li>
+<li>Overall, results are consistent with a phage-associated genome
+assembly.</li>
+</ul>

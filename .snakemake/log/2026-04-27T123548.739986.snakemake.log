@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Creating conda environment envs/prokka.yaml...
+Downloading and installing remote packages.
+Environment for envs/prokka.yaml created (location: .snakemake/conda/f9850b536c154c812349d8b4bd643ca5)
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	prokka
+	2
+Select jobs to execute...
+
+[Mon Apr 27 12:39:45 2026]
+rule prokka:
+    input: results/racon/polished.fasta
+    output: results/prokka/polished.gff, results/prokka/polished.faa, results/prokka/polished.tsv
+    jobid: 6
+
+Activating conda environment: /home/siri/nanopore_pipeline/.snakemake/conda/f9850b536c154c812349d8b4bd643ca5
+[Mon Apr 27 12:39:47 2026]
+Error in rule prokka:
+    jobid: 6
+    output: results/prokka/polished.gff, results/prokka/polished.faa, results/prokka/polished.tsv
+    conda-env: /home/siri/nanopore_pipeline/.snakemake/conda/f9850b536c154c812349d8b4bd643ca5
+    shell:
+        
+        prokka results/racon/polished.fasta           --outdir results/prokka           --prefix polished           --force
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/siri/nanopore_pipeline/.snakemake/log/2026-04-27T123548.739986.snakemake.log

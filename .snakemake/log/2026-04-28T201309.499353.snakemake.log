@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	report
+	1
+Select jobs to execute...
+
+[Tue Apr 28 20:13:09 2026]
+rule report:
+    input: report/report.md
+    output: report/report.html
+    jobid: 0
+
+[Tue Apr 28 20:13:09 2026]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /home/siri/nanopore_pipeline/.snakemake/log/2026-04-28T201309.499353.snakemake.log

@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 160 of /home/siri/nanopore_pipeline/Snakefile:
+Missing input files for rule report:
+results/qc/nanoplot.html
+results/prokka/PROKKA_001.txt

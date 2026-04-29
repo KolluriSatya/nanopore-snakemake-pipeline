@@ -1,0 +1,17 @@
+rule miniasm:
+    input:
+        "data/reads.fastq"
+    output:
+        "results/miniasm/assembly.gfa",
+        "results/miniasm/assembly.fasta"
+    threads: 2
+    shell:
+        """
+        mkdir -p results/miniasm
+
+        minimap2 -x ava-ont {input} {input} > results/miniasm/reads.paf
+
+        miniasm -f {input} results/miniasm/reads.paf > results/miniasm/assembly.gfa
+
+        awk '$1=="S"{{print ">"$2"\\n"$3}}' results/miniasm/assembly.gfa > results/miniasm/assembly.fasta
+        """

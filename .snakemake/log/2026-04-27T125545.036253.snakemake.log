@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	prokka_summary
+	1	report
+	3
+Select jobs to execute...
+
+[Mon Apr 27 12:55:46 2026]
+rule prokka_summary:
+    input: results/prokka/polished.gff
+    output: results/prokka/genes_summary.tsv
+    jobid: 6
+
+[Mon Apr 27 12:55:46 2026]
+Finished job 6.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Mon Apr 27 12:55:46 2026]
+rule report:
+    input: results/nanoplot/NanoPlot-report.html, results/quast/report.txt, results/blast/blast_results.tsv, results/prokka/polished.gff, results/prokka/genes_summary.tsv, results/racon/polished.fasta
+    output: results/report.html
+    jobid: 7
+
+[Mon Apr 27 12:55:46 2026]
+Finished job 7.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Mon Apr 27 12:55:46 2026]
+localrule all:
+    input: results/nanoplot/NanoPlot-report.html, results/racon/polished.fasta, results/quast/report.txt, results/blast/blast_results.tsv, results/prokka/polished.gff, results/prokka/polished.faa, results/prokka/genes_summary.tsv, results/report.html
+    jobid: 0
+
+[Mon Apr 27 12:55:46 2026]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/siri/nanopore_pipeline/.snakemake/log/2026-04-27T125545.036253.snakemake.log

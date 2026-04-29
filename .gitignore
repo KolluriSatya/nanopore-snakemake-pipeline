@@ -1,0 +1,8 @@
+results/
+logs/
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.vcf
+__pycache__/
