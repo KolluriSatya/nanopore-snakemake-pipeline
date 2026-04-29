@@ -1,4 +1,0 @@
-Building DAG of jobs...
-Relative file path './report/report.md' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
-Nothing to be done.
-Complete log: /home/siri/nanopore_pipeline/.snakemake/log/2026-04-28T200503.554313.snakemake.log

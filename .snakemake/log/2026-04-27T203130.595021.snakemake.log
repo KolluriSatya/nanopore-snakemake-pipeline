@@ -1,9 +1,0 @@
-Building DAG of jobs...
-Creating report...
-Missing metadata for file results/nanoplot/NanoPlot-report.html. Maybe metadata was deleted or it was created using an older version of Snakemake. This is a non critical warning.
-Missing metadata for file results/racon/polished.fasta. Maybe metadata was deleted or it was created using an older version of Snakemake. This is a non critical warning.
-Missing metadata for file results/miniasm/assembly.gfa. Maybe metadata was deleted or it was created using an older version of Snakemake. This is a non critical warning.
-Missing metadata for file results/miniasm/assembly.fasta. Maybe metadata was deleted or it was created using an older version of Snakemake. This is a non critical warning.
-Missing metadata for file results/blast/blast_results.tsv. Maybe metadata was deleted or it was created using an older version of Snakemake. This is a non critical warning.
-Downloading resources and rendering HTML.
-Report created: report.html.
